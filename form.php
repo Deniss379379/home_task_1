@@ -14,10 +14,8 @@
         <input type="submit" value="Отправить" />
     </form>
 
-    <p>Привет,</p>
     <?php
-    echo $_GET['firstname'];
-    echo $_GET['lastname'];
+    echo "Привет " . $_GET['firstname'] . " " . $_GET['lastname'];
     ?>
 </BODY>
 
